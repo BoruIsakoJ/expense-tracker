@@ -1,42 +1,112 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+header {
+  margin: 0;
+  padding: 0;
+  padding: 10px 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav h1 {
+  font-size: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+nav p {
+  width: 400px;
+  color: rgba(255, 255, 255, 0.4);
 }
 
-.card {
-  padding: 2em;
+.main-content {
+  display: flex;
+  gap: 20px;
+  padding: 40px 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.table-form {
+  margin-bottom: 10px;
+
+}
+
+.table-form input {
+  width: 45%;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #ffffff;
+}
+.table-container {
+  width: 100%;
+  border-radius: 10px;
+}
+table thead tr th{
+  text-align: left;
+  background-color: black;
+  padding: 15px;
+
+}
+table tbody tr td{
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ;
+}
+table tbody tr{
+  transition: all 0.3s ;
+}
+table tbody tr:nth-child(even) {
+  background-color: hsl(240, 11%, 18%); 
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: hsl(240, 11%, 35%); 
+
+}
+table tbody tr:hover {
+  background-color: hsl(240, 21%, 31%);
+  cursor: pointer;
+
+}
+
+aside {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  padding: 30px 15px;
+  width: 30%;
+  min-width: 400px;
+  border-radius: 20px;
+}
+
+aside h2 {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+aside h3 {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+aside input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 15px 5px;
+  font-size: 15px;
+}
+
+aside button {
+  width: 100%;
+  margin-top: 10px;
+  font-weight: 800;
 }
