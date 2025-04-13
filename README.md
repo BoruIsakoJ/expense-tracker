@@ -1,12 +1,83 @@
-# React + Vite
+# Expense Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive expense tracking application built with **React**.  
+This app allows users to add new expenses, search through their expense history, and view their spending in an easy-to-read table format.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📋 Add new expenses with details such as name, description, category, amount, and date.
+- 🔍 Real-time search through all expenses.
+- 🧾 View expenses in a clean, tabular format.
+- ✍️ Easy to customize and expand with new features.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Vite + React for fast development)
+- **JavaScript**
+- **CSS** for basic styling
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+- Node.js
+- npm 
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/BoruIsakoJ/expense-tracker.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd expense-tracker
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit:
+
+```bash
+http://localhost:5173
+```
+
+## Project Structure
+
+```bash
+src/
+├── components/
+│   ├── AddExpenseForm.jsx
+│   ├── Header.jsx
+│   └── Table.jsx
+├── data/
+│   └── items.js
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+## How to Use
+
+1. **Add Expense:**  
+Fill out the form to add a new expense item.
+
+2. **Search Expense:**  
+Use the search bar to filter through your expenses in real-time.
+
+3. **View Table:**  
+All expenses will be displayed in the table below the form.
