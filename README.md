@@ -3,6 +3,11 @@
 A simple and responsive expense tracking application built with **React**.  
 This app allows users to add new expenses, search through their expense history, and view their spending in an easy-to-read table format.
 
+## 🚀 Demo
+
+Check out the live version of the app here:  
+[Live Demo](https://dashing-biscotti-50779f.netlify.app/)
+
 ## Features
 
 - 📋 Add new expenses with details such as name, description, category, amount, and date.
